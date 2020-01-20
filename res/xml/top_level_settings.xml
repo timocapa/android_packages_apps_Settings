@@ -25,7 +25,7 @@
         android:title="@string/dirtytweaks_title"
         android:summary="@string/dirtytweaks_summary"
         android:icon="@drawable/ic_settings_dirtytweaks"
-        android:order="-130"
+        android:order="20"
         android:fragment="com.dirtyunicorns.tweaks.DirtyTweaks" />
 
     <Preference
@@ -34,7 +34,7 @@
         android:summary="@string/du_themes_summary"
         android:icon="@drawable/ic_homepage_du_themes"
         android:fragment="com.android.settings.StartThemes"
-        android:order="-125"/>
+        android:order="10"/>
 
     <Preference
         android:key="top_level_network"
@@ -146,7 +146,7 @@
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
         android:icon="@drawable/ic_homepage_system_dashboard"
-        android:order="10"
+        android:order="30"
         android:fragment="com.android.settings.system.SystemDashboardFragment"/>
 
     <Preference
@@ -154,7 +154,7 @@
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_about"
-        android:order="20"
+        android:order="40"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
