@@ -3062,7 +3062,7 @@
         <service
             android:name=".development.qstile.DevelopmentTiles$SensorsOff"
             android:label="@string/sensors_off_quick_settings_title"
-            android:icon="@drawable/tile_icon_sensors_off"
+            android:icon="@drawable/tile_icon_sensors"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false">
             <intent-filter>
@@ -3303,6 +3303,13 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/du_themes_summary"/>
         </activity>
+
+       <!-- DU Changelog -->
+        <activity android:name="com.dirtyunicorns.changelog.MainActivity"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:theme="@style/ChangelogTheme"
+                  android:label="@string/du_changelog_title" />
 
     </application>
 </manifest>
